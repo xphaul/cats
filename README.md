@@ -1,6 +1,8 @@
 # cats
 Demo application using React-Typescript with API Integration
 
+yarn - initialize packages
+
 yarn build - build react application
 
 yarn serve - to automatically watch and serve build files
