@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "baseUrl": "src",
+    "paths": {
+      "@Hooks/*": ["./Hooks/*"],
+      "@Pages/*": ["./Pages/*"],
+      "@Services/*": ["./Services/*"],
+      "@Contexts/*": ["./Contexts/*"],
+      "@Components/*": ["./Components/*"]
+    },
+    "downlevelIteration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
